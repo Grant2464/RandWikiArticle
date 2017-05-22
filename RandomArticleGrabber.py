@@ -33,6 +33,5 @@ def article(category):
     target.write(wiki.content)
     target.close()
     return
-article("All") #List of categories at: https://en.wikipedia.org/wiki/Portal:Contents/Categories
 
 
