@@ -21,6 +21,7 @@ def article(category):
     url = url.replace("_"," ")
     wiki = wikipedia.page(url)
     print(wiki.title)
+    print(wiki.content)
     #All available functions:
         #wiki.title - Get title of article
         #wiki.url - Get url of article
