@@ -30,7 +30,7 @@ def article(category):
     target = io.open("Article.txt", 'w' , encoding='utf8')
     target.write(wiki.title)
     target.write("\n \n")
-    target.write(wiki.content)
+    target.write(getrawtext(wiki.content))
     target.close()
     return wiki.content
 
